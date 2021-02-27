@@ -13,9 +13,7 @@ import SkillList from './components/SkillList';
 import HSection2Styled from './components/layout/HSection2Styled';
 import HSection3Styled from './components/layout/HSection3Styled';
 import SingleColStyled from './components/layout/SingleColStyled';
-import SlideButtonStyled from './components/SlideButtonStyled';
-import Slide from './components/Slide';
-import work from './assets/work';
+import Carousel from './components/Carousel';
 
 function App() {
   const lang = 'sv'
@@ -38,9 +36,7 @@ function App() {
         </ListBlockStyled>
       </HSection1Styled>
       <HSection2Styled>
-        <SlideButtonStyled side={'left'}>&#10094;</SlideButtonStyled>
-        <SlideButtonStyled side={'right'}>&#10095;</SlideButtonStyled>
-        <Slide props={work}></Slide>
+        <Carousel/>
       </HSection2Styled>
       <HSection3Styled>
         <SectionTitleStyled>

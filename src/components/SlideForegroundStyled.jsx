@@ -1,13 +1,12 @@
 import styled from 'styled-components'
-import img from '../../assets/img/quiz_screen.jpg'
 
-const SlideStyled = styled.div`
+const SlideForegroundStyled = styled.div`
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .65);
     display: grid;
     grid-template-columns: 1.6rem 1fr 1fr 1.6rem;
-    background-image: url(${img});
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
+    padding-top: 1rem;
 
     @media screen and (min-width: 641px){
         grid-template-columns: 3.2rem 1fr 1fr 1fr 3.2rem;
@@ -19,4 +18,4 @@ const SlideStyled = styled.div`
     }
 `
 
-export default SlideStyled
+export default SlideForegroundStyled

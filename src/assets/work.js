@@ -26,28 +26,58 @@ const work = [
             page:'https://d-c-k.github.io/Quiz/'
         },
         image:{
-            mob:'../assets/img/quiz_screen_mob.jpg',
-            desktop:'../assets/img/quiz_screen.jpg'
+            mob:'/img/quiz_screen_mob.jpg',
+            desktop:'/img/quiz_screen.jpg',
         }
-    }
-    // {
-    //     title:{
-    //         sv:'',
-    //         en:''
-    //     },
-    //     text:{
-    //         sv:'',
-    //         en:''
-    //     },
-    //     links:{
-    //         repo:'',
-    //         page:''
-    //     },
-    //     image:{
-    //         mob:'../assets/img/',
-    //         desktop:'../assets/img/'
-    //     }
-    // },
+    },
+    {
+        title:{
+            sv:'Musikspelare',
+            en:'Audio player'
+        },
+        text:{
+            sv:'En enkel ljuduppspelnings-app med några förinlagda .mp3-filer ' +
+               'som spelas upp med en tillhörande .gif som loopas i bakgrunden. ' +
+               'Funktioner inkluderar spela/pausa, nästa/förra spår, repeat, ' +
+               'volymkontroll samt en spårlista(endast desktop).',
+            en:'A simple audio playback app with a few preloaded .mp3-files and ' +
+               'corresponding .gif-images looping in the background. Functions ' +
+               'include play/pause, previous and next track selectors, repeat, ' +
+               'volume control and a tracklist(desktop only)'
+        },
+        links:{
+            repo:'https://github.com/d-c-k/audioplayer',
+            page:'https://d-c-k.github.io/audioplayer/'
+        },
+        image:{
+            mob:'/img/audioplayer_screen_mob.jpg',
+            desktop:'/img/audioplayer_screen.jpg'
+        }
+    },
+    {
+        title:{
+            sv:'CRUD-app',
+            en:'CRUD app'
+        },
+        text:{
+            sv:'Skoluppgift. Skapa, läs av, uppdatera och ta bort poster i en lista. ' +
+               'Inkluderar även login med JWT-token samt validering av input-formatet ' +
+               'i "VAT-Number"-fältet. Byggd i React med styled-components. ' +
+               'Lösenord: javascriptoramverk',
+            en:'Schoolassignment. Create, read, update and delete posts in a list. ' +
+               'Also includes log in with JWT-token and validation of input format ' +
+               'in the "VAT-Number" field. Built in React using styled-components. ' +
+               'Password: javascriptoramverk'
+        },
+        links:{
+            repo:'https://github.com/d-c-k/react-crud',
+            page:'https://d-c-k.github.io/react-crud/'
+        },
+        image:{
+            mob:'/img/react_crud_screen_mob.jpg',
+            desktop:'/img/react_crud_screen.jpg'
+        }
+    },
 ]
 
 export default work
