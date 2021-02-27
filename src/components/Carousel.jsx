@@ -1,17 +1,22 @@
 import React, {useState} from 'react'
 import work from '../assets/work'
+import CarouselDotsStyled from './CarouselDotsStyled'
+import DotStyled from './DotStyled'
 import CarouselStyled from './layout/CarouselStyled'
 import Slide from './Slide'
 import SlideButtonStyled from './SlideButtonStyled'
 
 export default function Carousel() {
-    const slideArr = [2,1,0]
+    const slideArr = [0, 1, 2]
     const [x, setX] = useState(0)
+    const [active, setActive] = useState(0)
     const goLeft = () => {
         x === 0 ? setX(-100 * (slideArr.length - 1)) : setX(x + 100)
+        active === 0 ? setActive(slideArr.length - 1) : setActive(active - 1)
     }
     const goRight = () => {
         x === -100 * (slideArr.length - 1) ? setX(0) : setX(x - 100)
+        active === slideArr.length - 1 ? setActive(0) : setActive(active + 1)
     }
     return (
         <CarouselStyled>
@@ -37,6 +42,13 @@ export default function Carousel() {
                 id="rightBtn"
                 onClick={goRight}
             >&#10095;</SlideButtonStyled>
+            <CarouselDotsStyled>
+                {
+                    slideArr.map((item, index) => {
+                        return <DotStyled key={index} active={active === item ? true : false}/>
+                    })
+                }
+            </CarouselDotsStyled>
         </CarouselStyled>
     )
 }

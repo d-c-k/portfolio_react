@@ -4,10 +4,10 @@ const MainContainerStyled = styled.div`
     height: 100vh;
     width: 100vw;
 
-    background-color: ${props => props.theme === 'dark' ? '#1e1e1e' : 'white'};
-    color: ${props => props.theme === 'dark' ? 'white' : '#1e1e1e'};
+    background-color: ${props => props.theme === 'dark' ? '#111111' : 'white'};
+    color: ${props => props.theme === 'dark' ? 'white' : '#111111'};
 
-    display: none;
+    display: grid;
     grid-template-columns: 1.6rem 1fr 1fr 1.6rem;
     grid-template-rows: 3.2rem 2rem 2rem 1fr; 
     grid-row-gap: 1rem;

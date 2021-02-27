@@ -14,6 +14,7 @@ import HSection2Styled from './components/layout/HSection2Styled';
 import HSection3Styled from './components/layout/HSection3Styled';
 import SingleColStyled from './components/layout/SingleColStyled';
 import Carousel from './components/Carousel';
+import LineBreakText from './components/LineBreakText';
 
 function App() {
   const lang = 'sv'
@@ -29,7 +30,7 @@ function App() {
           <p>{lang === 'sv' ? texts[1].sv : texts[1].en}</p>
         </SectionTitleStyled>
         <TextBlockStyled>
-          <p>{lang === 'sv' ? texts[2].sv : texts[2].en}</p>
+          <LineBreakText text={lang === 'sv' ? texts[2].sv : texts[2].en}/>
         </TextBlockStyled>
         <ListBlockStyled>
           <SkillList list={skills}/>
@@ -46,8 +47,8 @@ function App() {
           <p>dc.koefoed@gmail.com<br/>(+46)70 - 755 06 60</p>
         </SingleColStyled>
         <SingleColStyled col={3}>
-          <a href="https://www.linkedin.com/in/daniel-koefoed-647306a8/">&gt;&gt; Linkedin</a><br/>
-          <a href="https://github.com/d-c-k">&gt;&gt; GitHub</a>
+          <a href="https://www.linkedin.com/in/daniel-koefoed-647306a8/" target="blank">&gt;&gt; Linkedin</a><br/>
+          <a href="https://github.com/d-c-k" target="blank">&gt;&gt; GitHub</a>
         </SingleColStyled>
       </HSection3Styled>
     </MainContainerStyled>
