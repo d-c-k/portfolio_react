@@ -7,21 +7,26 @@ const MainContainerStyled = styled.div`
     background-color: ${props => props.theme === 'dark' ? '#111111' : 'white'};
     color: ${props => props.theme === 'dark' ? 'white' : '#111111'};
 
-    display: grid;
-    grid-template-columns: 1.6rem 1fr 1fr 1.6rem;
-    grid-template-rows: 3.2rem 2rem 2rem 1fr; 
-    grid-row-gap: 1rem;
+    @media screen and (max-width: 640px){
+        display: grid;
+        grid-template-columns: 1.6rem 1fr 1fr 1.6rem; 
+        grid-template-rows: repeat(3, 100vh); 
+        scroll-snap-points-y: repeat(100vh);
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+    }
 
     @media screen and (min-width: 641px){
         display: grid;
         grid-template-columns: 3.2rem 1fr 1fr 1fr 3.2rem;
-        grid-template-rows: 3.2rem 4.2rem 1fr 1.5fr .25fr; 
+        grid-template-rows: 3.2rem 4.2rem auto 1fr auto; 
         grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
     }
 
     @media screen and (min-width: 1008px){
         grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: 3.2rem 4.2rem .5fr 1.75fr .25fr; 
+        grid-template-rows: 3.2rem 4.2rem auto 1fr auto; 
     }
 `
 

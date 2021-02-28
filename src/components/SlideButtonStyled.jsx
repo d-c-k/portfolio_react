@@ -11,7 +11,15 @@ const SlideButtonStyled = styled.button`
     font-size: 2rem;
     background: none;
     cursor: pointer;
+    text-align: center;
     ${props => props.side}: 2.5%;
+
+    @media screen and (max-width: 640px){
+        display:none;
+        transform: none;
+        ${props => props.side}: 0%;
+        width: 20%;
+    }
 `
 
 export default SlideButtonStyled

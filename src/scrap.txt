@@ -1,0 +1,3 @@
+Main container rows for mobile
+
+//grid-template-rows: 3.2rem 2rem 2rem 1fr;
