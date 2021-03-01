@@ -7,7 +7,7 @@ const SlideButtonStyled = styled.button`
     height: 80%;
     width: 2.5%;
     border: none;
-    color: inherit;
+    color: white;
     font-size: 2rem;
     background: none;
     cursor: pointer;

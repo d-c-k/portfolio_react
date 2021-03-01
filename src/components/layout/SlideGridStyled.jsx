@@ -6,6 +6,7 @@ const SlideGridStyled = styled.div`
     grid-column-gap: 1rem;
     grid-row-gap: 1rem;
     grid-template-rows: 5.2rem 2rem auto 1fr;
+    color: white;
 
     @media screen and (min-width: 641px) and (max-width: 1007px){
         grid-column: 2/5;

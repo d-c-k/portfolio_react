@@ -50,7 +50,7 @@ const work = [
     {
         title:{
             sv:'Quiz-app',
-            en:'"Quiz app'
+            en:'Quiz app'
         },
         text:{
             sv: 'Skoluppgift. Ett quiz med frågor hämtade via API. Välj om du ' + 
