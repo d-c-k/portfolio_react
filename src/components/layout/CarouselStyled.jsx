@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 const CarouselStyled = styled.div`
     @media screen and (max-width: 640px){
-        scroll-snap-points-x: repeat(100vw);
-        scroll-snap-type: x mandatory;
-        overflow-x: scroll;
+        // scroll-snap-points-x: repeat(100vw);
+        // scroll-snap-type: x mandatory;
+        // overflow-x: scroll;
     }
 
     width: 100%;

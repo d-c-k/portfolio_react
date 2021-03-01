@@ -15,7 +15,7 @@ const SlideButtonStyled = styled.button`
     ${props => props.side}: 2.5%;
 
     @media screen and (max-width: 640px){
-        display:none;
+        //display:none;
         transform: none;
         ${props => props.side}: 0%;
         width: 20%;

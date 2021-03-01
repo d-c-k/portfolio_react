@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 const SlideBackgroundStyled = styled.div`   
     @media screen and (max-width: 640px){
-        scroll-snap-align: start;        
+        //scroll-snap-align: start;        
     }
 
     background-image: url(${props => props.image});
