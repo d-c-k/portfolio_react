@@ -32,6 +32,10 @@ const texts = [
     {
         sv: 'Kod',
         en: 'Code'
+    },
+    {
+        sv: 'TEMA',
+        en: 'THEME'
     }
 ]
 

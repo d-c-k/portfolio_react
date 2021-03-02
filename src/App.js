@@ -7,8 +7,10 @@ import texts from './assets/texts'
 
 import Carousel from './components/Carousel';
 import LineBreakText from './components/LineBreakText';
+import Settings from './components/Settings';
 import SkillList from './components/SkillList';
 
+import HeaderStyled from './components/layout/HeaderStyled';
 import HSection1Styled from './components/layout/HSection1Styled';
 import HSection2Styled from './components/layout/HSection2Styled';
 import HSection3Styled from './components/layout/HSection3Styled';
@@ -18,11 +20,9 @@ import SectionTitleStyled from './components/layout/SectionTitleStyled';
 import SingleColStyled from './components/layout/SingleColStyled';
 import TextBlockStyled from './components/layout/TextBlockStyled';
 import TitleStyled from './components/layout/TitleStyled';
-import LangSettings from './components/LangSettings';
-import HeaderStyled from './components/layout/HeaderStyled';
 
 function App() {
-  const [lang, setLang] =useState('')
+  const [lang, setLang] =useState('sv')
   const [theme, setTheme] = useState('')
   const SettingsContextValue = {
     lang, setLang,
@@ -36,7 +36,7 @@ function App() {
         <TitleStyled>
           {lang === 'sv' ? texts[0].sv : texts[0].en}
         </TitleStyled>
-          <LangSettings/>
+        <Settings/>
       </HeaderStyled>
 
       <HSection1Styled>
