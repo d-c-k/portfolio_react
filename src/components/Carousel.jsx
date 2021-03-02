@@ -1,12 +1,18 @@
-import React, {useState} from 'react'
+import React, {useState, useContext} from 'react'
+
+import { SettingsContext } from '../contexts/SettingsContext'
+
 import work from '../assets/work'
+
 import CarouselDotsStyled from './CarouselDotsStyled'
 import DotStyled from './DotStyled'
-import CarouselStyled from './layout/CarouselStyled'
 import Slide from './Slide'
 import SlideButtonStyled from './SlideButtonStyled'
 
+import CarouselStyled from './layout/CarouselStyled'
+
 export default function Carousel() {
+    const {theme} = useContext(SettingsContext)
     const slideArr = [0, 1, 2]
     const [x, setX] = useState(0)
     const [active, setActive] = useState(0)
@@ -45,7 +51,11 @@ export default function Carousel() {
             <CarouselDotsStyled>
                 {
                     slideArr.map((item, index) => {
-                        return <DotStyled key={index} active={active === item ? true : false}/>
+                        return <DotStyled 
+                                    key={index} 
+                                    color={theme === 'light' ? '#111111' : 'white'}
+                                    active={active === item ? true : false}
+                                />
                     })
                 }
             </CarouselDotsStyled>

@@ -1,18 +1,22 @@
 import React, {useContext} from 'react'
-import texts from '../assets/texts'
+
 import { SettingsContext } from '../contexts/SettingsContext'
+
+import texts from '../assets/texts'
+
+import SlideBackgroundStyled from './SlideBackgroundStyled'
+import SlideForegroundStyled from './SlideForegroundStyled'
+
 import ListBlockStyled from './layout/ListBlockStyled'
 import SectionTitleStyled from './layout/SectionTitleStyled'
 import SlideGridStyled from './layout/SlideGridStyled'
 import TextBlockStyled from './layout/TextBlockStyled'
-import SlideBackgroundStyled from './SlideBackgroundStyled'
-import SlideForegroundStyled from './SlideForegroundStyled'
 
 export default function Slide(props) {
-    const {lang} = useContext(SettingsContext)
+    const {lang, theme} = useContext(SettingsContext)
     return (
         <SlideBackgroundStyled image={props.data.image.desktop}>
-            <SlideForegroundStyled>    
+            <SlideForegroundStyled theme={theme}>    
                 <SlideGridStyled>
                     <SectionTitleStyled>
                         {lang === 'sv' ? props.data.title.sv : props.data.title.en}

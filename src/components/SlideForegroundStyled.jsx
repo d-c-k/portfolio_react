@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const SlideForegroundStyled = styled.div`
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .65);
+    background-color: ${props => props.theme === 'light' ? 'rgba(255, 255, 255, .65)' : 'rgba(0, 0, 0, .65)'};
     display: grid;
     grid-template-columns: 1.6rem 1fr 1fr 1.6rem;
     

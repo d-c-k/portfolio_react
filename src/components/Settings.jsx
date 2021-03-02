@@ -1,7 +1,11 @@
 import React, { useContext } from 'react'
-import texts from '../assets/texts'
+
 import { SettingsContext } from '../contexts/SettingsContext'
+
+import texts from '../assets/texts'
+
 import ButtonStyled from './ButtonStyled'
+
 import SettingsDivStyled from './layout/SettingsDivStyled'
 
 export default function Settings() {
