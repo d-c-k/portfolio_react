@@ -44,7 +44,7 @@ const work = [
         },
         image:{
             mob:'/img/audioplayer_screen_mob.jpg',
-            desktop:'/img/audioplayer_screen.jpg'
+            desktop:'%PUBLIC_URL%/audioplayer_screen.jpg'
         }
     },    
     {
