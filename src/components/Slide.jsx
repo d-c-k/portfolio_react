@@ -15,7 +15,7 @@ import TextBlockStyled from './layout/TextBlockStyled'
 export default function Slide(props) {
     const {lang, theme} = useContext(SettingsContext)
     return (
-        <SlideBackgroundStyled image={props.data.image.desktop}>
+        <SlideBackgroundStyled imageIndex={props.data.image.desktop}>
             <SlideForegroundStyled theme={theme}>    
                 <SlideGridStyled>
                     <SectionTitleStyled>

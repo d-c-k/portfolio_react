@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const CarouselDotsStyled = styled.div`
     @media screen and (max-width: 640px){
         //position: fixed;
+        bottom: 20%
     }
 
     position: absolute;

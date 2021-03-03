@@ -1,13 +1,15 @@
 import styled from 'styled-components'
 
-import img_react_crud_desk from '../assets/img/react_crud_screen.jpg'
+import one from '../assets/img/react_crud_screen.jpg'
+import two from '../assets/img/audioplayer_screen.jpg'
+import three from '../assets/img/quiz_screen.jpg'
 
 const SlideBackgroundStyled = styled.div`   
     @media screen and (max-width: 640px){
         //scroll-snap-align: start;        
     }
 
-    background-image: url(${props => props.image});
+    background-image: url(${props => props.imageIndex === '1' ? one : props.imageIndex === '2' ? two : three});
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;

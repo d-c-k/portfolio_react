@@ -20,7 +20,7 @@ const work = [
         },
         image:{
             mob:'/img/react_crud_screen_mob.jpg',
-            desktop:'img_react_crud_desk'
+            desktop:'1'
         }
     },
     {
@@ -44,7 +44,7 @@ const work = [
         },
         image:{
             mob:'/img/audioplayer_screen_mob.jpg',
-            desktop:'/img/audioplayer_screen.jpg'
+            desktop:'2'
         }
     },    
     {
@@ -75,7 +75,7 @@ const work = [
         },
         image:{
             mob:'/img/quiz_screen_mob.jpg',
-            desktop:'/img/quiz_screen.jpg',
+            desktop:'3',
         }
     }
 ]
