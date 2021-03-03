@@ -16,11 +16,11 @@ const work = [
         },
         links:{
             repo:'https://github.com/d-c-k/react-crud',
-            page:'img_react_crud_desk'
+            page:'https://d-c-k.github.io/react-crud/'
         },
         image:{
             mob:'/img/react_crud_screen_mob.jpg',
-            desktop:'/img/react_crud_screen.jpg'
+            desktop:'img_react_crud_desk'
         }
     },
     {
