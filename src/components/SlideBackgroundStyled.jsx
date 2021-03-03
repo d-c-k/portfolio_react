@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+import img_react_crud_desk from '../assets/img/react_crud_screen.jpg'
+
 const SlideBackgroundStyled = styled.div`   
     @media screen and (max-width: 640px){
         //scroll-snap-align: start;        
