@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.c9214fd3.chunk.css",
-    "main.js": "/portfolio_react/static/js/main.59e098e2.chunk.js",
-    "main.js.map": "/portfolio_react/static/js/main.59e098e2.chunk.js.map",
+    "main.js": "/portfolio_react/static/js/main.089fecbb.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.089fecbb.chunk.js.map",
     "runtime-main.js": "/portfolio_react/static/js/runtime-main.c6eb5462.js",
     "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.c6eb5462.js.map",
     "static/js/2.acef4096.chunk.js": "/portfolio_react/static/js/2.acef4096.chunk.js",
@@ -12,12 +12,14 @@
     "index.html": "/portfolio_react/index.html",
     "static/css/main.c9214fd3.chunk.css.map": "/portfolio_react/static/css/main.c9214fd3.chunk.css.map",
     "static/js/2.acef4096.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.acef4096.chunk.js.LICENSE.txt",
+    "static/media/audioplayer_screen.588bcbcd.jpg": "/portfolio_react/static/media/audioplayer_screen.588bcbcd.jpg",
+    "static/media/quiz_screen.279bc102.jpg": "/portfolio_react/static/media/quiz_screen.279bc102.jpg",
     "static/media/react_crud_screen.b4bfefd4.jpg": "/portfolio_react/static/media/react_crud_screen.b4bfefd4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c6eb5462.js",
     "static/js/2.acef4096.chunk.js",
     "static/css/main.c9214fd3.chunk.css",
-    "static/js/main.59e098e2.chunk.js"
+    "static/js/main.089fecbb.chunk.js"
   ]
 }
