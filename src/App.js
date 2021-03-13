@@ -11,7 +11,7 @@ import MainContainerStyled from './components/layout/MainContainerStyled';
 
 function App() {
   const [lang, setLang] =useState('sv')
-  const [theme, setTheme] = useState('')
+  const [theme, setTheme] = useState('dark')
   const SettingsContextValue = {
     lang, setLang,
     theme, setTheme

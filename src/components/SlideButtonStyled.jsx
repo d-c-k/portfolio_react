@@ -19,7 +19,8 @@ const SlideButtonStyled = styled.button`
         transform: none;
         ${props => props.side}: 0%;
         width: 20%;
-        top: 35%;
+        top: 65%;
+        height: 20%;
     }
 `
 

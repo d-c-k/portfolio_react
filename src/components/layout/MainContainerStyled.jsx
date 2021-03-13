@@ -10,7 +10,7 @@ const MainContainerStyled = styled.div`
     @media screen and (max-width: 640px){
         display: grid;
         grid-template-columns: 1.6rem 1fr 1fr 1.6rem; 
-        grid-template-rows: repeat(3, 100vh); 
+        grid-template-rows: repeat(3, 100vh);
         scroll-snap-points-y: repeat(100vh);
         scroll-snap-type: y mandatory;
         overflow-y: scroll;
