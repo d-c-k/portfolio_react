@@ -1,15 +1,41 @@
 const work = [
     {
         title:{
+            sv:'Chat-app',
+            en:'Chat app'
+        },
+        text:{
+            sv:'En chat-applikation med användar-login. ' +
+               'Skapa ett användarkonto och logga in. Se andra användare och vilka av dem som är online,' +
+               'chatta privat eller skapa en grupp-kanal med flera användare. All data sparas i en databas ' +
+               'som uppdateras kontinuerligt. Byggd i NodeJS och MongoDB med bcrypt, ejs, express, ' +
+               'mongoose, passport och socket.io.',
+            en:'A chat application with user login. ' +
+               'Register a user account and log in. Other users are listed and those who are online ' +
+               'highlighted. Send private messages or create a group channel with multiple users. All ' +
+               'data is stored in a continuously updating database. Built in NodeJS and MongoDB using ' +
+               'bcrypt, ejs, express, mongoose, passport and socket.io.'
+        },
+        links:{
+            repo:'https://github.com/d-c-k/chat-app',
+            page:'https://tranquil-peak-98736.herokuapp.com/'
+        },
+        image:{
+            mob:'',
+            desktop:'0'
+        }
+    },
+    {
+        title:{
             sv:'CRUD-app',
             en:'CRUD app'
         },
         text:{
-            sv:'Skoluppgift. Skapa, läs av, uppdatera och ta bort poster i en lista. ' +
+            sv:'Skapa, läs av, uppdatera och ta bort poster i en lista. ' +
                'Inkluderar även login med JWT-token samt validering av input-formatet ' +
                'i "VAT-Number"-fältet. Byggd i React med styled-components. ' +
                'Lösenord: javascriptoramverk',
-            en:'Schoolassignment. Create, read, update and delete posts in a list. ' +
+            en:'Create, read, update and delete posts in a list. ' +
                'Also includes log in with JWT-token and validation of input format ' +
                'in the "VAT-Number" field. Built in React using styled-components. ' +
                'Password: javascriptoramverk'
@@ -53,14 +79,14 @@ const work = [
             en:'Quiz app'
         },
         text:{
-            sv: 'Skoluppgift. Ett quiz med frågor hämtade via API. Välj om du ' + 
+            sv: 'Ett quiz med frågor hämtade via API. Välj om du ' + 
                 'vill besvara mellan 5 och 10 frågor, markera svarsalternativet ' +
                 'eller alternativen du tror stämmer och gå vidare till nästa fråga. ' +
                 'Om du ångrar ett svar kan du backa så långt du vill innan du väljer ' +
                 'att låsa och gå vidare. På resultatsidan visas din totala poäng, ' +
                 'varje fråga skrivs ut i en ruta med ditt svar och eventuellt rätt ' +
                 'alternativ om det du svarade skulle vara fel.',
-            en: 'Schoolassignment. A quiz with questions fetched via an API. ' +
+            en: 'A quiz with questions fetched via an API. ' +
                 'Choose if you want to answer between 5 and 10 questions, select ' +
                 'the alternative or alternatives you belive is correct and move ' +
                 'on to the next question. If you wish to change an answer on a ' +

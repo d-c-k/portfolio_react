@@ -4,8 +4,8 @@ const MainContainerStyled = styled.div`
     height: 100vh;
     width: 100vw;
 
-    background-color: ${props => props.theme === 'light' ? 'white' : '#111111'}};
-    color: ${props => props.theme === 'light' ? '#111111' : 'white'};
+    background-color: ${props => props.theme === 'light' ? 'white' : 'black'}};
+    color: ${props => props.theme === 'light' ? 'black' : 'white'};
 
     @media screen and (max-width: 640px){
         display: grid;

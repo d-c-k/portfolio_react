@@ -13,7 +13,7 @@ import CarouselStyled from './layout/CarouselStyled'
 
 export default function Carousel() {
     const {theme} = useContext(SettingsContext)
-    const slideArr = [0, 1, 2]
+    const slideArr = [0, 1, 2, 3]
     const [x, setX] = useState(0)
     const [active, setActive] = useState(0)
     const goLeft = () => {
@@ -53,7 +53,7 @@ export default function Carousel() {
                     slideArr.map((item, index) => {
                         return <DotStyled 
                                     key={index} 
-                                    color={theme === 'light' ? '#111111' : 'white'}
+                                    color={theme === 'light' ? 'black' : 'white'}
                                     active={active === item ? true : false}
                                 />
                     })
