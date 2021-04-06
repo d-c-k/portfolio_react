@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
-import zero from '../assets/img/chat-app_screen.jpg'
-import one from '../assets/img/react_crud_screen.jpg'
-import two from '../assets/img/audioplayer_screen.jpg'
-import three from '../assets/img/quiz_screen.jpg'
+import zero from '../assets/img/3d_helmet_screen.jpg'
+import one from '../assets/img/chat-app_screen.jpg'
+import two from '../assets/img/react_crud_screen.jpg'
+import three from '../assets/img/audioplayer_screen.jpg'
+import four from '../assets/img/quiz_screen.jpg'
 
 const SlideBackgroundStyled = styled.div`   
     @media screen and (max-width: 640px){
@@ -22,8 +23,12 @@ const SlideBackgroundStyled = styled.div`
         props.imageIndex === '2' 
         ? 
         two 
-        : 
-        three});
+        :
+        props.imageIndex === '3' 
+        ?  
+        three
+        :
+        four});
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;

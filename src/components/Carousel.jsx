@@ -13,7 +13,7 @@ import CarouselStyled from './layout/CarouselStyled'
 
 export default function Carousel() {
     const {theme} = useContext(SettingsContext)
-    const slideArr = [0, 1, 2, 3]
+    const slideArr = [0, 1, 2, 3, 4]
     const [x, setX] = useState(0)
     const [active, setActive] = useState(0)
     const goLeft = () => {

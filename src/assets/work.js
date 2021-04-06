@@ -1,6 +1,29 @@
 const work = [
     {
         title:{
+            sv:'3D-model',
+            en:'3D model'
+        },
+        text:{
+            sv:'Presentation av 3D-skannat museiföremål. ' +
+               'Byggd med JavaScript-biblioteken THREE.js och TWEEN.js. Model i format .glTF med en enkel ' +
+               'rotationsanimation och en kamera som flyttas till fördefinerade koordinater vid knapptryck.',
+            en:'Presentation of a 3D-scanned museum object. ' +
+               'Built with the JavaScript libraries THREE.js and TWEEN.js. Model in the .glTF format ' +
+               'with a simple rotation animation and a camera that moves to predefined coordinates ' +
+               'on button click.'
+        },
+        links:{
+            repo:'https://github.com/d-c-k/ivan_iv',
+            page:'https://d-c-k.github.io/ivan_iv_build/'
+        },
+        image:{
+            mob:'',
+            desktop:'0'
+        }
+    },
+    {
+        title:{
             sv:'Chat-app',
             en:'Chat app'
         },
@@ -22,7 +45,7 @@ const work = [
         },
         image:{
             mob:'',
-            desktop:'0'
+            desktop:'1'
         }
     },
     {
@@ -46,7 +69,7 @@ const work = [
         },
         image:{
             mob:'/img/react_crud_screen_mob.jpg',
-            desktop:'1'
+            desktop:'2'
         }
     },
     {
@@ -70,7 +93,7 @@ const work = [
         },
         image:{
             mob:'/img/audioplayer_screen_mob.jpg',
-            desktop:'2'
+            desktop:'3'
         }
     },    
     {
@@ -101,7 +124,7 @@ const work = [
         },
         image:{
             mob:'/img/quiz_screen_mob.jpg',
-            desktop:'3',
+            desktop:'4',
         }
     }
 ]
