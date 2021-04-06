@@ -1,12 +1,12 @@
 const work = [
     {
         title:{
-            sv:'3D-model',
+            sv:'3D-modell',
             en:'3D model'
         },
         text:{
             sv:'Presentation av 3D-skannat museiföremål. ' +
-               'Byggd med JavaScript-biblioteken THREE.js och TWEEN.js. Model i format .glTF med en enkel ' +
+               'Byggd med JavaScript-biblioteken THREE.js och TWEEN.js. Modell i format .glTF med en enkel ' +
                'rotationsanimation och en kamera som flyttas till fördefinerade koordinater vid knapptryck.',
             en:'Presentation of a 3D-scanned museum object. ' +
                'Built with the JavaScript libraries THREE.js and TWEEN.js. Model in the .glTF format ' +
