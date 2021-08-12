@@ -7,7 +7,8 @@ const skills = [
     'React',
     'Express.js',
     'MySQL',
-    'MongoDB'    
+    'MongoDB',    
+    'PHP'
 ]
 
 export default skills
