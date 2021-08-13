@@ -13,12 +13,19 @@ import CarouselStyled from './layout/CarouselStyled'
 
 export default function Carousel() {
     const {theme} = useContext(SettingsContext)
-    const slideArr = [0, 1, 2, 3, 4]
+//     const slideArr = [0, 1, 2, 3, 4]
+    const [slideArr, setSlideArr] = useState([0, 1, 2, 3, 4])
     const [x, setX] = useState(0)
     const [active, setActive] = useState(0)
+//     const goLeft = () => {
+//         x === 0 ? setX(-100 * (slideArr.length - 1)) : setX(x + 100)
+//         active === 0 ? setActive(slideArr.length - 1) : setActive(active - 1)
+//     }
     const goLeft = () => {
-        x === 0 ? setX(-100 * (slideArr.length - 1)) : setX(x + 100)
-        active === 0 ? setActive(slideArr.length - 1) : setActive(active - 1)
+      if(x === 0){
+        setX(-100 * (slideArr.length - 1))
+
+      } 
     }
     const goRight = () => {
         x === -100 * (slideArr.length - 1) ? setX(0) : setX(x - 100)
