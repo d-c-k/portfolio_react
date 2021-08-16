@@ -22,10 +22,15 @@ export default function Carousel() {
 //         active === 0 ? setActive(slideArr.length - 1) : setActive(active - 1)
 //     }
     const goLeft = () => {
-      if(x === 0){
-        setX(-100 * (slideArr.length - 1))
+        if(x === 0){
+            setSlideArr([4, 0, 1, 2, 3])
+            setX(-100 * (slideArr.length -1))
 
-      } 
+        }else{
+            setSlideArr([0, 1, 2, 3, 4])
+            setX(x+100)
+        } 
+        console.log(x)
     }
     const goRight = () => {
         x === -100 * (slideArr.length - 1) ? setX(0) : setX(x - 100)
