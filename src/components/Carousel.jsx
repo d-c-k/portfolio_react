@@ -8,29 +8,45 @@ import CarouselDotsStyled from './CarouselDotsStyled'
 import DotStyled from './DotStyled'
 import Slide from './Slide'
 import SlideButtonStyled from './SlideButtonStyled'
+import SlideStyled from './SlideStyled'
 
 import CarouselStyled from './layout/CarouselStyled'
 
 export default function Carousel() {
     const {theme} = useContext(SettingsContext)
 //     const slideArr = [0, 1, 2, 3, 4]
-    const [slideArr, setSlideArr] = useState([0, 1, 2, 3, 4])
-    const [x, setX] = useState(0)
+    const [slideArr, setSlideArr] = useState([4, 0, 1, 2, 3])
+    const [x, setX] = useState(-100)
     const [active, setActive] = useState(0)
 //     const goLeft = () => {
 //         x === 0 ? setX(-100 * (slideArr.length - 1)) : setX(x + 100)
 //         active === 0 ? setActive(slideArr.length - 1) : setActive(active - 1)
 //     }
     const goLeft = () => {
-        if(x === 0){
-            setSlideArr([4, 0, 1, 2, 3])
-            setX(-100 * (slideArr.length -1))
+      setX(0)
+
+      let tmpArr = []
+      tmpArr.push(...slideArr)
+      tmpArr.unshift(tmpArr[tmpArr.length - 1])
+      tmpArr.pop()
+
+        if(active === 0){
+            setActive(4)
+//             setX(-100 * 4)
+//             setTimeout(() => {setSlideArr([3, 4, 0, 1, 2 ]);}, 700)
 
         }else{
-            setSlideArr([0, 1, 2, 3, 4])
-            setX(x+100)
+            setActive(active - 1)
+//             setX(x+100)
+//             setTimeout(() => {setSlideArr([0, 1, 2, 3, 4]);}, 700)
         } 
-        console.log(x)
+
+       setTimeout(() => {setX(-100); setSlideArr(tmpArr)}, 700)
+//        setTimeout(function() {setX(-100);},1400)
+
+        console.log("x = " + x)
+        console.log("active = " + active)
+        console.log(slideArr)
     }
     const goRight = () => {
         x === -100 * (slideArr.length - 1) ? setX(0) : setX(x - 100)
@@ -40,14 +56,14 @@ export default function Carousel() {
         <CarouselStyled>
             {
                 slideArr.map((i, index) => {
-                    return <div 
-                            className="innerSlideContainer" 
+                    return <SlideStyled
+//                            className="innerSlideContainer" 
                             key={index} 
                             style={{transform: `translateX(${x}%)`}}>
                                 <Slide 
                                     data={work[i]}
                                 />
-                            </div>
+                            </SlideStyled>
                 })
             }
             <SlideButtonStyled 
