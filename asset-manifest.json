@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.c9214fd3.chunk.css",
-    "main.js": "/portfolio_react/static/js/main.d3dd3154.chunk.js",
-    "main.js.map": "/portfolio_react/static/js/main.d3dd3154.chunk.js.map",
-    "runtime-main.js": "/portfolio_react/static/js/runtime-main.2f7c2a3e.js",
-    "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.2f7c2a3e.js.map",
-    "static/js/2.8e1309df.chunk.js": "/portfolio_react/static/js/2.8e1309df.chunk.js",
-    "static/js/2.8e1309df.chunk.js.map": "/portfolio_react/static/js/2.8e1309df.chunk.js.map",
-    "static/js/3.e7fe42a7.chunk.js": "/portfolio_react/static/js/3.e7fe42a7.chunk.js",
-    "static/js/3.e7fe42a7.chunk.js.map": "/portfolio_react/static/js/3.e7fe42a7.chunk.js.map",
+    "main.css": "/portfolio_react/static/css/main.f73897cf.chunk.css",
+    "main.js": "/portfolio_react/static/js/main.9e7b7fd0.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.9e7b7fd0.chunk.js.map",
+    "runtime-main.js": "/portfolio_react/static/js/runtime-main.82c29698.js",
+    "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.82c29698.js.map",
+    "static/js/2.3156c1d7.chunk.js": "/portfolio_react/static/js/2.3156c1d7.chunk.js",
+    "static/js/2.3156c1d7.chunk.js.map": "/portfolio_react/static/js/2.3156c1d7.chunk.js.map",
+    "static/js/3.5af5eaf2.chunk.js": "/portfolio_react/static/js/3.5af5eaf2.chunk.js",
+    "static/js/3.5af5eaf2.chunk.js.map": "/portfolio_react/static/js/3.5af5eaf2.chunk.js.map",
     "index.html": "/portfolio_react/index.html",
-    "static/css/main.c9214fd3.chunk.css.map": "/portfolio_react/static/css/main.c9214fd3.chunk.css.map",
-    "static/js/2.8e1309df.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.8e1309df.chunk.js.LICENSE.txt",
+    "static/css/main.f73897cf.chunk.css.map": "/portfolio_react/static/css/main.f73897cf.chunk.css.map",
+    "static/js/2.3156c1d7.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.3156c1d7.chunk.js.LICENSE.txt",
     "static/media/3d_helmet_screen.67673c1d.jpg": "/portfolio_react/static/media/3d_helmet_screen.67673c1d.jpg",
     "static/media/audioplayer_screen.588bcbcd.jpg": "/portfolio_react/static/media/audioplayer_screen.588bcbcd.jpg",
     "static/media/chat-app_screen.16b4ebd6.jpg": "/portfolio_react/static/media/chat-app_screen.16b4ebd6.jpg",
@@ -19,9 +19,9 @@
     "static/media/react_crud_screen.b4bfefd4.jpg": "/portfolio_react/static/media/react_crud_screen.b4bfefd4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f7c2a3e.js",
-    "static/js/2.8e1309df.chunk.js",
-    "static/css/main.c9214fd3.chunk.css",
-    "static/js/main.d3dd3154.chunk.js"
+    "static/js/runtime-main.82c29698.js",
+    "static/js/2.3156c1d7.chunk.js",
+    "static/css/main.f73897cf.chunk.css",
+    "static/js/main.9e7b7fd0.chunk.js"
   ]
 }
