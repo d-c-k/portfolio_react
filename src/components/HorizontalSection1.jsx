@@ -4,6 +4,8 @@ import { SettingsContext } from '../contexts/SettingsContext'
 
 import skills from '../assets/skills'
 import texts from '../assets/texts'
+import pdfSv from '../assets/cv/Daniel_Koefoed_CV_SV.pdf'
+import pdfEn from '../assets/cv/Daniel_Koefoed_CV_EN.pdf'
 
 import LineBreakText from './LineBreakText';
 import SkillList from './SkillList';
@@ -22,6 +24,8 @@ export default function HorizontalSection1() {
             </SectionTitleStyled>
             <TextBlockStyled>
                 <LineBreakText text={lang === 'sv' ? texts[2].sv : texts[2].en}/>
+                <br/>
+                <a href={lang === 'sv' ? pdfSv : pdfEn} target="blank">&gt;&gt; CV</a>
             </TextBlockStyled>
             <ListBlockStyled>
                 <SkillList list={skills}/>

@@ -6,6 +6,7 @@ const HeaderStyled = styled.div`
     @media screen and (max-width: 640px){
         width: calc(100vw - 3.2rem);
         display: flex;
+        flex-direction: column;
         justify-content: space-between;        
         position: fixed;
         margin: 3.2rem 1.6rem 0 1.6rem;

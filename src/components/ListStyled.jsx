@@ -10,7 +10,7 @@ const ListStyled = styled.ul`
     } 
 
     @media screen and (min-width: 1008px) {
-        list-style-position: outside;
+//        list-style-position: outside;
     }
 `
 

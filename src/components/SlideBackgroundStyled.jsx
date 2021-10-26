@@ -32,7 +32,7 @@ const SlideBackgroundStyled = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    min-width: 100%;
+    max-width: 100vw;
     height:100%;
     position: relative;    
 `
