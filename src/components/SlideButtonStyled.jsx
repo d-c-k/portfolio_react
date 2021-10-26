@@ -2,10 +2,6 @@ import styled from 'styled-components'
 
 const SlideButtonStyled = styled.button`
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    height: 80%;
-    width: 2.5%;
     border: none;
     color: inherit;
     font-size: 2rem;
@@ -16,11 +12,17 @@ const SlideButtonStyled = styled.button`
 
     @media screen and (max-width: 640px){
         //display:none;
-        transform: none;
-        ${props => props.side}: 0%;
-        width: 20%;
         top: 65%;
+        width: 20%;
         height: 20%;
+        ${props => props.side}: 0%;
+    }
+
+    @media screen and (min-width: 641){
+        top: 50%;
+        width: 2.5vw;
+        height: 80%;
+        transform: translateY(-50%);
     }
 `
 

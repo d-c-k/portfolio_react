@@ -1,14 +1,16 @@
 const skills = [
     'JavaScript',
-    'Node.js',
+    'NodeJS',
     'HTML',
     'CSS',
     'SASS/SCSS',
     'React',
-    'Express.js',
+    'Express',
     'MySQL',
     'MongoDB',    
-    'PHP'
+    'PHP',
+    'EJS',
+    'Angular'
 ]
 
 export default skills

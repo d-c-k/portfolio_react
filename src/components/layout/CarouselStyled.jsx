@@ -7,7 +7,7 @@ const CarouselStyled = styled.div`
         // overflow-x: scroll;
     }
 
-    width: 100%;
+    width: 100vw;
     height: 100%;
     box-sizing: border-box;
     display: flex;
