@@ -19,9 +19,13 @@ const HSection1Styled = styled.div`
     }
 
     @media screen and (min-width: 1008px){
-        grid-column: 2/7;
+        grid-column: 2/8;
         grid-row: 3;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: 1fr 1fr 1fr 1fr 1.5fr 0.5fr; 
+    }
+
+    @media screen and (min-width: 1400px){
+        grid-template-columns: repeat(6, 1fr);
     }
 `
 
